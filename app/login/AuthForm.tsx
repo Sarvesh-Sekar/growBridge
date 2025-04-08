@@ -6,7 +6,7 @@ export default function AuthForm() {
   return (
     <div className="mt-10 border-2 border-black w-full max-w-md px-4 sm:px-8 py-10 sm:py-14 rounded-lg shadow-md">
       <div className="flex flex-col items-center">
-        <div className="text-lg sm:text-xl font-mono font-semibold mb-4">
+        <div className="text-2xl sm:text-xl font-mono font-semibold mb-4">
           {!openLoginModal ? "Sign Up Form" : "Login"}
         </div>
 
@@ -30,6 +30,7 @@ export default function AuthForm() {
           className="border-2 border-black my-4 px-5 py-2 bg-black text-white rounded-lg w-full"
           onClick={() => {
             if (!openLoginModal) router.push("/details");
+            else router.push("/home")
           }}
         >
           Submit
