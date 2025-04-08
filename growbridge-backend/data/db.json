@@ -1,0 +1,36 @@
+{
+    "users": [
+      {
+        "id": 1743944188012,
+        "name": "Kalaivani",
+        "email": "kalaivani@growbridge.com",
+        "password": "123456",
+        "role": "investor",
+        "domain": ["AI", "Healthcare"],
+        "stage": ["Seed", "Series A"]
+      },
+      {
+        "id": 1743944188013,
+        "name": "Startup One",
+        "email": "startup1@growbridge.com",
+        "password": "abcdef",
+        "role": "startup",
+        "domain": ["Healthcare"],
+        "stage": ["Seed"]
+      }
+    ],
+    "preferences": [
+      {
+        "userId": 1743944188012,
+        "preferredDomains": ["Healthcare"],
+        "preferredStages": ["Seed"]
+      },
+      {
+        "userId": 1743944188013,
+        "preferredDomains": ["AI", "Healthcare"],
+        "preferredStages": ["Seed", "Series A"]
+      }
+    ],
+    "startups": [],
+    "investors": []
+}
